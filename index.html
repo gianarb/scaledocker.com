@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./custom.css" rel="stylesheet">
+	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+	<div class="row">
+		<div class="right-text">
+			<h1>Docker in Production</h1>
+			<h2>From a Docker Captain and Open Source Developer</h2>
+			<p class="lead">A collection of books and resources about Docker written during my real world.</p>
+            <div>
+                <img src="./security.png" />
+            </div>
+		</div>
+		<div class="cover"></div>
+	<div><!-- Cover closed -->
+
+	<div class="row">
+		<div class="callout-dark text-center fade-in-b">
+			<h1>Production in a <b>containarized env</b> - my daily journey in the DevOps word.</h1>
+			<p>From a Site Reliability Engineer some tricks to run Containers in production.</p>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row single-book">
+			<div class="row">
+				<h2>Docker the Foundamental</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="./the-fundamentals.jpg" class="img-responsive">
+				</div>
+				<div class="col-md-8">
+					<h3>Content <span class="small">pages ~25</span></h3>
+                    <p>Getting Started about Docker, it covers basic concepts
+                    about what container means and it’s a started point to
+                    understand containers, Docker and all the ecosystem.</p>
+					<ul>
+						<li>Introduction</li>
+						<li>Install Docker on Ubuntu 16.04</li>
+						<li>Install Docker on Mac</li>
+						<li>Install Docker on Windows</li>
+						<li>Run your first HTTP application</li>
+						<li>Docker engine architect</li>
+						<li>Image and Registry</li>
+						<li>Docker Command Line Tool</li>
+						<li>Volumes and File Systems 20</li>
+						<li>Network and Links</li>
+						<li>Conclusion</li>
+					</ul>
+					<p>
+						Read more about: <a target="_blank" href="http://gianarb.it/blog/docker-the-fundamentals">Docker the Foundamental</a>, <a href="http://gianarb.it/blog/docker-registry-to-ship-your-containers" target="_blank">Docker registry to ship and manage your containers</a>.
+					</p>
+				</div>
+			</div>
+
+			<div class="row checkout">
+				<div class="col-md-offset-3 col-md-6">
+					<p>Complete the form. You will receive a temporary link with the PDF.</p>
+					<form id="get-chapter">
+					  <div class="form-group">
+						<label for="exampleInputEmail1">Email address *</label>
+						<input type="email" class="form-control" required="required" id="email" placeholder="Email">
+					  </div>
+					  <div class="form-group">
+						<label for="exampleInputPassword1">Twitter</label>
+						<input type="title" class="form-control" id="twitter" placeholder="@gianarb" pattern="^@.*">
+						<p class="help-block">The first letter needs to be a @</p>
+					  </div>
+					  <p class="text-success get-chapter-thanks">Check your email! Thanks!</p>
+					  <p class="text-warning get-chapter-sorry"><span class="err-text"></span>.
+					  Please notify the error with a comment or with an email</p>
+					  <button class="btn btn-default">Get your free copy</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row single-book">
+			<div class="row">
+				<h2>Docker Security - Play Safe</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="./security.png" class="img-responsive">
+				</div>
+				<div class="col-md-8">
+					<h3>Content <span class="small">pages ~55</span></h3>
+                    <p>When you think about production everything stops to be a
+                    joke. Containers, cloud computing, scalability is something
+                    that fit wel with security? I have my personal response for
+                    this question and with this paper I am going to show what I
+                    mean with security and how containers, docker, linux can
+                    make this real.</p>
+					<ul>
+						<li>Introduction</li>
+						<li>Mutual TLS and Security by default</li>
+						<li>Content Trust</li>
+						<li>Overlay Network</li>
+						<li>Docker Bench Security</li>
+						<li>Process Restriction and Capabilities</li>
+						<li>Open Source</li>
+						<li>Linux Kernel Security</li>
+						<li>Cilium</li>
+						<li>About your images</li>
+						<li>Secret Manager</li>
+						<li>Immutability</li>
+					</ul>
+					<p>
+						How to know more: You can follow some good folks on twitter:
+                            <a target="_blank" href="https://twitter.com/jessfraz">Jess</a>,
+                            <a target="_blank" href="https://twitter.com/riyazdf">riyazdf</a>,
+                            <a target="_blank" href="https://twitter.com/diogomonica">Diogo</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="row checkout">
+				<div class="col-md-offset-3 col-md-6">
+					<p>Complete the form. You will receive a temporary link with the PDF.</p>
+					<form id="get-chapter-ps">
+					  <div class="form-group">
+						<label for="exampleInputEmail1">Email address *</label>
+						<input type="email" class="form-control" required="required" id="email-ps" placeholder="Email">
+					  </div>
+					  <div class="form-group">
+						<label for="exampleInputPassword1">Twitter</label>
+						<input type="title" class="form-control" id="twitter-ps" placeholder="@gianarb" pattern="^@.*">
+						<p class="help-block">The first letter needs to be a @</p>
+					  </div>
+					  <p class="text-success get-chapter-thanks-ps">Check your email! Thanks!</p>
+					  <p class="text-warning get-chapter-sorry-ps"><span class="err-text-ps"></span>.
+					  Please notify the error with a comment or with an email</p>
+					  <button class="btn btn-default">Get your free copy</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</div><!-- End of the book list-->
+
+    <div class="row callout-dark text-center fade-in-b">
+		<div class="row">
+			<div class="callout-dark text-center fade-in-b">
+				<h2>Follow all <b>new releases</b> - Only good things</h2>
+			</div>
+		</div>
+        <div class="col-md-6 col-md-offset-3">
+            <div id="mc_embed_signup">
+                <form action="//gianarb.us2.list-manage.com/subscribe/post?u=03581a38fd820a06b0898c802&amp;id=890199b686"
+					method="post"
+					id="mc-embedded-subscribe-form"
+					name="mc-embedded-subscribe-form"
+					class="validate"
+					target="_blank"
+					novalidate>
+
+                    <div id="mc_embed_signup_scroll">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_03581a38fd820a06b0898c802_890199b686" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+	<footer class="footer">
+    	<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-md-offset-1"> <img src="./me.png" class="img-responsive">
+				</div>
+				<div class="col-md-8">
+				<p class="text-muted lead">
+					I am Gianluca Arbezzano Software Engineer involved in open
+					source development and DevOps from years.</br>
+					Open Source maintainer in different projects, speaksers and
+					author I am passionate about automation, delivery,
+					monitoring and security.
+				</p>
+				<p class="text-muted lead">
+					If you need to know more about me and my this project
+					please feel free to send me a tweet <a
+					href="https://twitter.com/gianarb" target="_blank">(@ginarb)</a> or and <a
+					href="mailto:hello@thumpflow.com">Email.</a>
+				</p>
+			</div>
+		</div>
+
+		<p class="text-muted">Made with <3 by Gianluca Arbezzano. Docker Captain and
+			Open Source developer</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.js"</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-84987931-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+	<script>
+		(function() {
+			$(".get-chapter-thanks").hide();
+			$(".get-chapter-sorry").hide();
+			var api = "https://1lkdtyxdx4.execute-api.eu-west-1.amazonaws.com/prod";
+			$("#get-chapter button").click(function(eve) {
+				eve.preventDefault()
+				$(".get-chapter-thanks").hide();
+				$(".get-chapter-sorry").hide();
+				var requestChapter = $.ajax({
+					"url": api+"/the-fundamentals",
+					"type": 'post',
+					"data": {
+						email: $("#email").val(),
+						twitter: $("#twitter").val()
+					},
+					"dataType": 'json',
+					"contentType": "application/json"
+				});
+				requestChapter.done(function() {
+					$(".get-chapter-thanks").show();
+				});
+				requestChapter.fail(function(data) {
+					$('.err-text').html("["+data.responseJSON.code+"]"+ data.responseJSON.text);
+					$(".get-chapter-sorry").show();
+				});
+			});
+
+			$(".get-chapter-thanks-ps").hide();
+			$(".get-chapter-sorry-ps").hide();
+			var api = "https://1lkdtyxdx4.execute-api.eu-west-1.amazonaws.com/prod";
+			$("#get-chapter-ps button").click(function(eve) {
+				eve.preventDefault()
+				$(".get-chapter-thanks-ps").hide();
+				$(".get-chapter-sorry-ps").hide();
+				var requestChapter = $.ajax({
+					"url": api+"/play-safe",
+					"type": 'post',
+					"data": {
+						email: $("#email-ps").val(),
+						twitter: $("#twitter-ps").val()
+					},
+					"dataType": 'json',
+					"contentType": "application/json"
+				});
+				requestChapter.done(function() {
+					$(".get-chapter-thanks-ps").show();
+				});
+				requestChapter.fail(function(data) {
+					$('.err-text-ps').html("["+data.responseJSON.code+"]"+ data.responseJSON.text);
+					$(".get-chapter-sorry-ps").show();
+				});
+			});
+		})();
+	</script>
+
+	<style type="text/css">
+		#mc_embed_signup{
+		}
+	</style>
+
+
+  </body>
+</html>
+
